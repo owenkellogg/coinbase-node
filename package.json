@@ -1,16 +1,16 @@
 {
-      "name": "nodecoinbase",
-      "description" : "NodeJS client library for coinbase",
-      "keywords" : [],
-      "version": "0.0.1",
-      "main": "ncb.js",
-      "dependencies": {
-                      "hottap" : "",
-                      "underscore" : ""
-      },
-      "devDependencies" : {
-                        "mocha" : "",
-                        "should" : "",
-                        "nock" : ""
-      }
+  "name": "coinbase-node",
+  "description" : "NodeJS client library for coinbase",
+  "keywords" : ['bitcoin','node','coinbase'],
+  "version": "0.0.2",
+  "main": "lib/coinbase.js",
+  "dependencies": {
+    "request" : "",
+    "underscore" : ""
+  },
+  "devDependencies" : {
+    "mocha" : "",
+    "should" : "",
+    "nock" : ""
+  }
 }
