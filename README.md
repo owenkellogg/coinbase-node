@@ -5,7 +5,7 @@ Currently only supports API Key based access.
 		var Coinbase = require("coinbase-node");
 				
 		var client = new Coinbase.Client({ 
-			api_key: 'my8coinb7ase3apikey'
+			api_key: process.env.COINBASE_API_KEY
 		}); 
 
 		function callback(err, resp, body){
