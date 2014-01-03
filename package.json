@@ -5,12 +5,12 @@
   "version": "0.0.2",
   "main": "lib/coinbase.js",
   "dependencies": {
-    "request" : "",
-    "underscore" : ""
+    "request" : "2.3.0",
+    "underscore" : "1.5.2"
   },
   "devDependencies" : {
-    "mocha" : "",
-    "should" : "",
-    "nock" : ""
+    "mocha" : "1.16.1",
+    "should" : "2.1.1",
+    "nock" : "0.27.0"
   }
 }
