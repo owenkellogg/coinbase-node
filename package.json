@@ -2,7 +2,7 @@
   "name": "coinbase-node",
   "description" : "NodeJS client library for coinbase",
   "keywords" : [],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/coinbase.js",
   "dependencies": {
     "request" : "2.3.0",
