@@ -11,6 +11,7 @@ Currently only supports API Key based access.
 
     npm install coinbase-node
 
+## Example
 
 		var Coinbase = require("coinbase-node");
 				
