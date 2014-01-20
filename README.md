@@ -1,6 +1,16 @@
-Node.js client for interacting with the Coinbase REST API.
+## coinbase-node
+
+### A node.js client for interacting with the Coinbase REST API.
+
+- send bitcoins from a Coinbase acccount
+- generate Bitcoin invoices with callback urls
 
 Currently only supports API Key based access.
+
+## Installation
+
+    npm install coinbase-node
+
 
 		var Coinbase = require("coinbase-node");
 				
