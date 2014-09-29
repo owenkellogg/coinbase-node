@@ -27,4 +27,46 @@ Currently only supports API Key based access.
 
 The above code will send 0.01 bitcoins to the bitcoin address listed.
 
+## New Interface
+
+    coinbase = new CoinbaseClient({
+      apiKey: process.env.COINBASE_API_KEY,
+      secret: process.env.COINBASE_SECRET
+    });
+
+### Send Money
+
+    coinbase.sendMoney({
+      to: 'me@stevenzeiler.com',
+      amount: 1.5,
+      note: 'Payment for Services'
+    })
+    .then(function(transaction) {
+      // do something with new transaction
+    })
+    .error(function(error) {
+      // handle error
+    });
+
+### Get Transaction
+    
+    coinbase.getTransaction({
+      id: 12345
+    })
+    .then(function(transaction) {
+      // do something with new transaction
+    })
+    .error(function(error) {
+      // handle error
+    });
+
+### List Transactions
+
+    coinbase.listTransactions()
+    .then(function(transaction) {
+      // do something with new transactions
+    })
+    .error(function(error) {
+      // handle error
+    });
 
