@@ -7,11 +7,12 @@
     "api",
     "client"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/client.js",
   "dependencies": {
     "underscore": "1.5.2",
     "qs": "^2.2.4",
+    "require-all": "0.0.8",
     "bluebird": "^2.3.4",
     "superagent": "^0.19.0"
   },
