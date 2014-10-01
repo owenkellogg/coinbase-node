@@ -1,16 +1,23 @@
 {
   "name": "coinbase-node",
-  "description" : "Coinbase Bitcoin payment library for Node.js",
-  "keywords" : ["bitcoin", "coinbase", "api", "client"],
+  "description": "Coinbase Bitcoin payment library for Node.js",
+  "keywords": [
+    "bitcoin",
+    "coinbase",
+    "api",
+    "client"
+  ],
   "version": "0.0.5",
   "main": "lib/coinbase.js",
   "dependencies": {
-    "request" : "2.3.0",
-    "underscore" : "1.5.2"
+    "bluebird": "^2.3.4",
+    "crypto": "0.0.3",
+    "require-all": "0.0.8",
+    "superagent": "^0.19.0"
   },
-  "devDependencies" : {
-    "mocha" : "1.16.1",
-    "should" : "2.1.1",
-    "nock" : "0.27.0"
+  "devDependencies": {
+    "mocha": "1.16.1",
+    "should": "2.1.1",
+    "nock": "0.27.0"
   }
 }
