@@ -11,6 +11,7 @@
   "main": "lib/client.js",
   "dependencies": {
     "underscore": "1.5.2",
+    "crypto": "0.0.3",
     "qs": "^2.2.4",
     "require-all": "0.0.8",
     "bluebird": "^2.3.4",
