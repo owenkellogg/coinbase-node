@@ -6,17 +6,18 @@ const client = new CoinbaseClient({
   secret: process.env.COINBASE_SECRET_KEY
 });
 
-describe('Coinbase Button Creation', function () {
+describe('Coinbase Order Creation', function () {
 
-  it('should make a request to Coinbase to create a button and log the response or error', function (done) {
-    client.createButton({
+  it('should make a request to Coinbase to create a order and log the response or error', function (done) {
+    client.createOrder({
       name: "test gatewayd",
-      price: "1.23",
-      currency: "BTC",
-      custom: "Order123"
+      price: "5",
+      currency: "USD",
+      custom: "Order123",
+      callback_url: "https://coin-gate.com/coinbase/callbacks"
     })
-    .then(function(button) {
-      console.log(button);
+    .then(function(order) {
+      console.log(order);
       done();
     })
     .error(function(error) {
