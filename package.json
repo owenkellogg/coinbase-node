@@ -14,7 +14,8 @@
     "qs": "^2.2.4",
     "require-all": "0.0.8",
     "bluebird": "^2.3.4",
-    "superagent": "^0.19.0"
+    "superagent": "^0.19.0",
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
     "mocha": "1.16.1",
